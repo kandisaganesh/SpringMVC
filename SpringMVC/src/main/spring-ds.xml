@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<datasources>
+   <local-tx-datasource>
+      <jndi-name>HighView</jndi-name>
+      <connection-url>jdbc:derby://localhost:1527/springclass</connection-url>
+      <driver-class>org.apache.derby.jdbc.ClientDriver</driver-class>
+      <user-name>sa</user-name>
+      <password>password</password>
+      <min-pool-size>5</min-pool-size>
+      <max-pool-size>20</max-pool-size>
+      <idle-timeout-minutes>3</idle-timeout-minutes>
+   </local-tx-datasource>
+</datasources>
